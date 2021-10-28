@@ -6,7 +6,7 @@ import { SimpleTimer, MediaTimer, AnimationFrameTicker, ITimer, NullTimer } from
 import { CastFrameQueue, NULL_FRAME, IFrame, NullFrameQueue, IFrameQueue } from './Frame'
 import { EventEmitter, IEvent } from './Events'
 import { PlayerView } from './ui/PlayerView'
-import { SOLARIZED_DARK, SOLARIZED_LIGHT } from './Theme'
+import { SOLARIZED_DARK, SOLARIZED_LIGHT, ABYSS, DARK, MONOKAI } from './Theme'
 import fetchCast from './CastFetcher'
 
 function writeSync(term: xterm.Terminal, data: string) {
@@ -39,6 +39,9 @@ function createTerminal(options: IPlayerOptions): xterm.Terminal {
 export class XtermPlayer implements XtermPlayerApi {
   static readonly THEME_SOLARIZED_DARK: xterm.ITheme = SOLARIZED_DARK
   static readonly THEME_SOLARIZED_LIGHT: xterm.ITheme = SOLARIZED_LIGHT
+  static readonly THEME_ABYSS: xterm.ITheme = ABYSS
+  static readonly THEME_DARK: xterm.ITheme = DARK
+  static readonly THEME_MONOKAI: xterm.ITheme = MONOKAI
 
   public readonly el: HTMLElement
 

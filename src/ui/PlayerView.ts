@@ -106,7 +106,7 @@ export class PlayerView implements IComponent {
     switch (this.state) {
       case 'Paused':
         this._bigButton.style.display = 'block'
-        this._bigButton.innerHTML = Icons.Pause
+        this._bigButton.innerHTML = Icons.Play
         this._spinner.style.display = 'none'
         break
       case 'Stopped':

@@ -20,7 +20,7 @@ export const SOLARIZED_DARK: xterm.ITheme = Object.freeze<xterm.ITheme>({
   brightMagenta: '#6c71c4',
   brightRed: '#cb4b16',
   brightWhite: '#fdf6e3',
-  brightYellow: '#657b83'
+  brightYellow: '#657b83',
 })
 
 export const SOLARIZED_LIGHT: xterm.ITheme = Object.freeze<xterm.ITheme>({
@@ -43,5 +43,57 @@ export const SOLARIZED_LIGHT: xterm.ITheme = Object.freeze<xterm.ITheme>({
   brightMagenta: '#6c71c4',
   brightRed: '#cb4b16',
   brightWhite: '#fdf6e3',
-  brightYellow: '#657b83'
+  brightYellow: '#657b83',
+})
+
+export const ABYSS: xterm.ITheme = Object.freeze<xterm.ITheme>({
+  black: '#111111',
+  red: '#ff9da4',
+  green: '#d1f1a9',
+  yellow: '#ffeead',
+  blue: '#bbdaff',
+  cyan: '#99ffff',
+  white: '#cccccc',
+  brightBlack: '#333333',
+  brightRed: '#ff7882',
+  brightGreen: '#b8f171',
+  brightYellow: '#ffe580',
+  brightBlue: '#80baff',
+  brightCyan: '#78ffff',
+  brightWhite: '#ffffff',
+  background: '#000c18',
+  foreground: '#6688cc',
+  cursor: '#ddbb88',
+  cursorAccent: '#000c18',
+  selection: '#770811',
+})
+
+export const DARK: xterm.ITheme = Object.freeze<xterm.ITheme>({
+  background: '#1e1e1e',
+  foreground: '#d4d4d4',
+  cursor: '#d4d4d4',
+  cursorAccent: '#1e1e1e',
+  selection: '#ffff40',
+})
+
+export const MONOKAI: xterm.ITheme = Object.freeze<xterm.ITheme>({
+  black: '#333333',
+  red: '#c4265e',
+  green: '#86b42b',
+  yellow: '#b3b42b',
+  blue: '#6a7ec8',
+  cyan: '#56adbc',
+  white: '#e3e3dd',
+  brightBlack: '#666666',
+  brightRed: '#f92672',
+  brightGreen: '#a6e22e',
+  brightYellow: '#e2e22e',
+  brightBlue: '#819aff',
+  brightCyan: '#66d9ef',
+  brightWhite: '#f8f8f2',
+  background: '#272822',
+  foreground: '#f8f8f2',
+  cursor: '#f8f8f0',
+  cursorAccent: '#272822',
+  selection: '#878b91',
 })

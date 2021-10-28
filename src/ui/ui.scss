@@ -1,6 +1,6 @@
-$icon-color: white;
+$icon-color: #fff;
 $loading-color: white;
-$bottom-height: 36px;
+$bottom-height: 32px;
 
 @keyframes sk-flow {
   0%,
@@ -75,19 +75,14 @@ $bottom-height: 36px;
     &.xp-big-button {
       cursor: pointer;
       font-size: 0;
-      width: 80px;
-      background-color: red;
-      border-radius: 25px;
-      -webkit-box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.5);
-      -moz-box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.5);
-      box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.5);
+      width: 60px;
     }
   }
 
   .xp-control-bar {
     position: absolute;
-    left: 12px;
-    right: 12px;
+    left: 0px;
+    right: 0px;
     bottom: 0;
     height: $bottom-height;
     color: #eee;
@@ -129,6 +124,7 @@ $bottom-height: 36px;
       bottom: 50px;
       right: 0px;
       padding: 10px 0;
+      border-radius: 4px;
       border: 1px solid rgba(255, 255, 255, 0.5);
 
       &-open {
@@ -138,6 +134,10 @@ $bottom-height: 36px;
       .xp-setting-item {
         cursor: pointer;
         padding: 5px 0;
+        font-size: 14px;
+        &:hover{
+          color:#ff1949
+        }
       }
     }
 
@@ -190,7 +190,7 @@ $bottom-height: 36px;
     left: 0;
     height: 100%;
     z-index: 99;
-    background-color: red;
+    background-color: #ff1949;
   }
 
   .xp-progress-hover {
